@@ -276,10 +276,11 @@ body {
     right: 39%;
 
 
-    border-radius: 0px;
+    border-radius: 0;
 }
+
 .global-img-title {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -288,8 +289,8 @@ body {
 
 }
 
-.title{
-justify-content: center;
+.title {
+    justify-content: center;
     flex-direction: row;
     align-items: center;
 
@@ -297,25 +298,27 @@ justify-content: center;
 }
 
 
-
 /*GLOBAL*/
 
 /*LIFE*/
 
 
-.life{
+.life {
+    display: flex;
     justify-content: space-between;
 
 }
-.life-title{
+
+.life-title {
     margin-top: 179px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 55px;
     line-height: 73px;
     text-align: center;
-    color: #00349A;}
+    color: #00349A;
+}
 
 
 /*LIFE*/
